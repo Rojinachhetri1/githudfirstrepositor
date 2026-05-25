@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f3f3f3;
+    padding: 40px;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    border: none;
+
+}
+
+.search input{
+    width: 500px;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    outline: none;
+}
+
+
+.search input:focus{
+    border: 2px solid #a87a2a;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    gap: 15px;
+  
+}
+.button1{
+    background-color: #a87a2a;
+    color: aliceblue;
+    border-radius: 30px;
+    border: none;
+    font-size: 18px;
+    padding:12px 22px ;
+    margin: 10px;
+    
+}
+.button2{
+    background-color:rgb(229, 231, 235);
+
+    color: rgb(55, 65, 81);
+
+    padding: 12px 22px;
+    margin: 10px;
+    border-radius: 20px;
+    border: none;
+    font-size: 18px;
+    justify-content: center;
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap:wrap;
+
+}
+.box{
+    width: 380px;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+
+}
+.image{
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+}
+.img1{
+    background-image: url(image1.png);
+}
+.img2{
+    background-image: url(image2.png);
+}
+.img3{
+    background-image: url(image3.png);
+}
+.content{
+    padding: 25px;
+}
+.top{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+.top span{
+    background-color: #eee3c9;
+    padding: 8px 15px;
+    border-radius: 20px;
+}
+h2{
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+h2:hover{
+    color: #a87a2a;
+}
+
+.text{
+    color: gray;
+    margin-bottom: 25px;
+    line-height: 1.6;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.profile img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}

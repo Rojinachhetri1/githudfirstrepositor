@@ -1,0 +1,33 @@
+.res{
+    background-color: yellow;
+    width: 100%;
+    height: 150px;
+    
+}
+@media screen and (min-width:100px) {
+    .res{
+        background-color: blue;
+    }
+    
+}
+
+@media screen and (min-width:600px) {
+    .res{
+        background-color: blueviolet;
+    }
+    
+}
+
+@media screen and ( min-width:700px) {
+    .res{
+        background-color: aqua;
+    }
+    
+}
+
+@media screen and ( min-width:400px) {
+    .res{
+        background-color: rgb(29, 31, 31);
+    }
+    
+}

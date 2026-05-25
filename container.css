@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+      font-family: "Roboto", sans-serif;
+            background-color: rgb(210, 221, 231);
+
+}
+.top-content{
+    margin-bottom: 40px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    height: 30vh;
+    align-items: center;
+}
+.main{
+    padding:  80px 20px;
+    text-align: center;
+}
+.trust{
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding:10px 15px;
+    background-color: rgb(113, 176, 240);
+    border-radius: 20px;
+    width: 130px;
+    text-align: center;
+    
+}
+.reason{
+    text-align: center;
+}
+
+.combine{
+    text-align: center;    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    
+}
+.box{
+      background-color: rgb(245, 241, 236);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 280px;
+    justify-content: space-between;
+    height: 200px;
+    width: 180px;
+}
+.icon {
+    width: 35px;
+    height: 35px;
+    border-radius: 12px;
+    align-items: center;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.blue{
+    background-color: rgb(170, 179, 230);
+    
+}
+.green{
+    background-color: rgb(109, 209, 109);
+    color: rgb(59, 185, 59);
+}
+.purple{
+    background-color: rgb(177, 140, 212);
+    color: rgb(209, 55, 209);
+}
+
+.orange{
+    background-color: rgb(234, 197, 127);
+    color: rgb(86, 57, 1);
+}
+
+.box h2{
+  font-size: 15px;
+  text-align: start;
+   
+}
+.box p{
+    font-size:12px;
+    text-align: left;
+}
+
+.industry{
+    color:rgb(56, 9, 245);
+    font-size: 11px;
+    text-align: start;
+   
+}
+
+
+.satisfaction{
+    color: green;
+    font-size: 11px;
+        text-align: start;
+
+}
+
+
+.certified{
+    color: purple;
+    font-size: 11px;
+        text-align: start;
+
+}
+
+
+
+.compliant{
+    color: orange;
+    font-size: 11px;
+        text-align: start;
+
+}

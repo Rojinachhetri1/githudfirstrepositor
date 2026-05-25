@@ -1,0 +1,136 @@
+.box{
+    width: 380px;
+    background-color:rgb(235, 220, 220);
+    padding: 20px;
+    border-radius: 25px;
+    margin: 20px;
+}
+
+.top-icon{
+    width: 45px;
+    height: 45px;
+    border-radius: 15px;
+    font-size: 28px;
+    padding: 10px;
+    background-color: rgb(119, 106, 213);
+    color: blue;
+    text-align: center;
+
+}
+
+h1{
+    margin-bottom: 20px;
+    color: black;
+}
+
+
+.icon{
+    width: 45px;
+    height: 45px;
+    background-color: white;
+    border-radius: 10px;
+
+    font-size: 22px;
+    padding: 10px;
+}
+p{
+    font-size: 20px;
+    font-weight: bold;
+    color:black;
+}
+
+
+
+.react{
+     display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 18px;
+    border-radius: 15px;
+    margin: 18px 8px;
+    text-align: center;
+    background-color:white;
+}
+
+.vue{ display: flex;
+    align-items:center;
+     gap: 20px;
+    padding: 18px;
+    border-radius: 15px;
+     margin: 18px 8px;
+     text-align: center;
+    background-color: #edf8ef;
+}
+
+.Angular{ display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 18px;
+    border-radius: 15px;
+     margin: 18px 8px;
+     text-align: center;
+    background-color: #fbeff0;
+}
+
+.Javascript{ 
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 18px;
+    border-radius: 15px;
+     margin: 18px 8px;
+     text-align: center;
+    background-color: #f9f7e8;
+}
+
+.HTML5{ display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 18px;
+    border-radius: 15px;
+     margin: 18px 8px;
+    background-color: #f7f2ea;
+    text-align: center;
+}
+
+.CSS3{ display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 18px;
+    border-radius: 15px;
+     margin: 18px 8px;
+     text-align: center;
+    background-color: #edf2ff;
+}
+
+/* icon */
+
+.react i{
+    color: #61dafb;
+    padding: 10px;
+}
+
+.vue i{
+    color: #42b883;
+        padding: 10px;
+}
+
+.Angular i{
+    color: red;
+        padding: 10px;
+}
+
+.Javascript i{
+    color: #f7df1e;
+    padding: 10px;
+}
+
+.HTML5 i{
+    color: #e34c26;
+    padding: 10px;
+}
+
+.CSS3 i{
+    color: #264de4;
+    padding: 10px;
+}
